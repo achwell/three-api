@@ -10,12 +10,12 @@ const Home: NextPage = () => {
             body: ''
         },
         onSubmit: values => {
-            axios.post("/api/posts", values).then(response => console.log({response})).catch(error => console.error({error}))
+            axios.post("/api/mongoose_posts", values).then(response => console.log({response})).catch(error => console.error({error}))
         }
     })
 
     const getPosts = () => {
-        axios.get("/api/posts").then(response => console.log({response})).catch(error => console.error({error}))
+        axios.get("/api/mongoose_posts").then(response => console.log({response})).catch(error => console.error({error}))
     }
 
     return (
