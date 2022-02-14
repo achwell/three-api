@@ -33,7 +33,7 @@ const Home: NextPage = () => {
                 </div>
 
                 <div>
-                    <label htmlFor="title">Body</label><br/>
+                    <label htmlFor="title">Content</label><br/>
                     <input
                         id="body"
                         name="body"
